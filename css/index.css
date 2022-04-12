@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+.about {
+    padding: 30px 0;
+    height: 500px;
+}
+
+
+.about ul li:nth-child(1) {
+    float: left;
+    width: 37.9%;
+}
+
+.about ul li:nth-child(2) {
+    float: left;
+    width: 62.1%;
+    text-align: center;
+}
+
+.about h2 {
+    color: rgb(255, 166, 119);
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.about p {
+    width: 90%;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(255, 204, 117) ;
+    padding-left: 100px;
+}
+
+/* .section1 {
+    height: 900px;
+    background-image: url(../image/jeju2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top ;
+    padding: 800px 0;
+    position: relative;
+} */
+
+.section2 {
+    height: 700px;
+    /* background-color: rgb(254, 244, 225); */
+    background-image: url(../image/jeju.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top ;
+}
+
+.section2 .inner p {
+    padding: 130px 20px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(7, 7, 7);
+}
+
+
+#main .service {
+    padding: 60px 0;
+}
+
+.service .inner h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 204, 117);
+}
+
+.service .inner .desp {
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(255, 166, 119) ;
+    padding: 25px 0;
+}
+
+  #main .service ul,
+  #main .product ul { overflow:hidden }
+  #main .service ul li,
+  #main .product ul li { float:left; width:32.3333% }
+  #main .product ul li { background-color:#fff }
+  #main .service ul li:nth-child(2),
+  #main .product ul li:nth-child(2) { margin:0 1.5% }
+
+  #main .imgbox { overflow:hidden; } 
+  #main .imgbox img { transition:all 0.5s}
+  #main .imgbox:hover img {
+      transform:scale(1.2);
+  }
+
+
+
+  #main .product {
+      background-color:#fff6de;
+      padding:60px 0; 
+  }
+
+  #main .product h2 {
+        font-size: 40px;
+        text-align: center;
+        color:  rgb(255, 166, 119);
+  }
+
+.product .inner .desp {
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(255, 166, 119) ;
+    padding: 25px 0;
+}
+  #main .product ul h3 {
+      font-size:16px; color:#333;
+      padding:20px 10px 10px;
+   }
+   
+   #main .product ul p {
+    font-size:13px; color:#888;
+    padding:0 10px 20px; 
+    word-break:keep-all; /* 한글단어잘림 허용안함 */
+}
+
+
+
